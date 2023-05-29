@@ -1,0 +1,26 @@
+.head_div {
+    background: #fff;
+    font-family: 'Manrope', sans-serif;
+}
+
+.head_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head_div .logo_div h1 {
+    font-size: 30px;
+}
+
+.head_div .user_div p {
+    font-size: 10px;
+}
+
+.head_div .user_div .online_text {
+    font-size: 7px;
+}
+
+.user_div p {
+    margin-bottom: 0;
+}

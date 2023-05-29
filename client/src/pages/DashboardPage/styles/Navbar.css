@@ -1,0 +1,39 @@
+.navbar_section .nav_div{
+    background: #0033c4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar_section .nav_div .nav_link{
+    display: flex;
+    gap: 20px;
+}
+
+.navbar_section .nav_div .nav_link button{
+    border: none;
+    font-size: 12px;
+    background: #0033c4;
+    color:#fff
+}
+
+.navbar_section .nav_div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+.navbar_section .nav_div .logout_div button{
+    padding: 3px 15px;
+    border: none;
+    background: yellow;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.navbar_section .nav_div .logout_div button{
+    font-size: 12px;
+}

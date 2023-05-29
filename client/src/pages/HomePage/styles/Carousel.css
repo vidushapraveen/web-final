@@ -1,0 +1,74 @@
+/* blockquote {
+    border-left:none
+} */
+
+.quote-badge {
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.2);   
+}
+
+.quote-box {
+    
+    overflow: hidden;
+    margin-top: 50px;
+    padding-top: -25px;
+    border-radius: 17px;
+    background-color: #4ADFCC;
+    color: white;
+    width: 325px;
+    box-shadow: 2px 2px 2px 2px #E0E0E0;
+    
+}
+
+.quotation-mark {
+    
+    margin-top: 10px;
+    font-weight: bold;
+    font-size:100px;
+    color: white;
+    font-family: "Times New Roman", Times, Serif;
+    
+}
+
+.quote-text {
+    
+    font-size: 19px;
+    margin-top: -50px;
+}
+
+/* .blog-post-bottom pull-right {
+  
+} */
+
+.carousel_component h1{
+    font-size: 60px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+}
+
+.com_card{
+    background: #eeeeee;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-left: 5px solid purple;
+}
+
+.com_card p{
+    font-size: 13px;
+}
+
+.com_card .commenter-bg{
+    width: 60px;
+    height: 60px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 2px solid purple;
+}

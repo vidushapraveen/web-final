@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700;900;1000&display=swap');
+
+
+.DashboardPage{
+    background: #edfeff;
+}
+
+
+
+.DashboardPage img{
+    margin: 0;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+
+.DashboardPage .reports-bg-div{
+    background-image: url('../../assets/images/blue.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.DashboardPage .layer1{
+    height: 120px;
+    background-color: rgba(0, 51, 196 , 0.3);
+ }
+
+ .DashboardPage .layer2{
+    background-color: rgba(255, 10, 85, 0.3);
+    height: 120px;
+ }
+
+ .DashboardPage .layer3{
+    background-color: rgba(0, 128, 0 ,0.3);
+    height: 120px;
+ }
+ .DashboardPage .layer4{
+    background-color: rgba(255, 0, 0 , 0.3);
+    height: 120px;
+ }
+
+ .DashboardPage .appointment_list .appointment_head{
+    background: rgb(228, 228, 2);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}

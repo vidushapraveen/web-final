@@ -1,0 +1,39 @@
+.about_section h1{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 200;
+}
+
+.about_section button{
+    background: #10327a;
+    color: #fff;
+    border: none;
+}
+
+.about_section img{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 991px) {
+
+    .about_section h1{
+        font-size: 40px;
+        font-weight: 200;
+    }
+    .about_section p{
+        font-size: 14px;
+    } 
+}
+
+@media screen and (max-width: 767px) {
+    .about_section img{
+        display: none;
+    }
+
+    .about_section h1{
+        font-size: 50px;
+    }
+
+}
+

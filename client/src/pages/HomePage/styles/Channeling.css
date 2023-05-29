@@ -1,0 +1,50 @@
+.channeling_section{
+    height: 100vh;
+}
+
+.channeling_section h1{
+    color: #10327a;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.channeling_section img{
+    width: 50px;
+}
+
+.channeling_section  button{
+    border: none;
+    background: orange;
+    border: 2px solid orange;
+    color: #fff;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.channeling_section  button:hover{
+    background: #fff;
+    border: 2px solid orange;
+    color: #000;
+}
+
+.channeling_section .appointment_step_div{
+    background-image: url('../../../assets/images/channeling-bg.png');
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    background-position: center;
+    background-size: cover;
+}
+
+.doctor_channeling_section .appointment_step_div img{
+    width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .channeling_section h1{
+        font-size: 45px;
+    }
+}

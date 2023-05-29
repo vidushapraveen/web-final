@@ -1,0 +1,45 @@
+.Signup_Page{
+    background-image: url('../../assets/images/register-bg.png');
+    height: 100vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Signup_Page .form_div{
+    background: rgba(255, 255, 255 , 0.7);
+    width: 360px;
+}
+
+.Signup_Page .form_div h1{
+    font-size: 35px;
+}
+
+.Signup_Page .user_icon{
+    font-size: 25px;
+}
+
+.Signup_Page .form_div input{
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.Signup_Page .form_div button{
+    background: green;
+    color: #fff;
+    border: none;
+}
+
+.Signup_Page .form_div .to_login_button{
+    background: none;
+    color: blue;
+}

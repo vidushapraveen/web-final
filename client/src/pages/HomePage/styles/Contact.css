@@ -1,0 +1,36 @@
+.contact_section{
+    background-image: url('../../../assets/images/contact-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    /* height: 100vh; */
+}
+
+.contact_section .form_div{
+    background: rgba(136, 173, 243, 0.6);
+}
+
+.contact_section input{
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.contact_section .facebook{
+    background: blue;
+    color: #fff;
+}
+
+.contact_section .twitter{
+    background: deepskyblue;
+    color: #fff;
+}
+
+.contact_section .linkedin{
+    background: rgb(38, 38, 133);
+    color: #fff;
+}

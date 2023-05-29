@@ -1,0 +1,38 @@
+.donate_section{
+    color: #fff;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.donate_section button{
+    border: none;
+    color: #10327a;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+@media screen and (max-width: 1199px) {
+    .donate_section button{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .donate_section h1{
+        font-size: 32px;
+    }
+
+    .donate_section button{
+        padding: 10px 25px !important;
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .donate_section h1{
+        font-size: 25px;
+    }
+}

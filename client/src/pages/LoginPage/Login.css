@@ -1,0 +1,46 @@
+.Login_Page{
+    background-image: url('../../assets/images/login-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Login_Page .form_div{
+    background: rgba(255, 255, 255 , 0.7);
+    width: 360px;
+}
+
+.Login_Page .form_div h1{
+    font-size: 35px;
+}
+
+.Login_Page .user_icon{
+    font-size: 25px;
+}
+
+.Login_Page .form_div input{
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.Login_Page .form_div button{
+    background: green;
+    color: #fff;
+    border: none;
+}
+
+.Login_Page .form_div .to_register_button{
+    background: none;
+    color: blue;
+}

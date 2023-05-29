@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700;900;1000&display=swap');
+
+.header_section .hero_section{
+    background-image: url('../../../assets/images/main-img.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.header_section .hero_section h1{
+    color: #10327a;
+    font-size: 3.5rem;
+}
+
+.header_section .hero_section .bold_text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.header_section .hero_section .light_text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.header_section .hero_section p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header_section .hero_section button{
+    padding: 0.7rem 2rem;
+    background: #10327a;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
